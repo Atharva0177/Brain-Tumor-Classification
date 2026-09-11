@@ -672,7 +672,21 @@ python scripts/infer_images.py `
 
 Example highlighted inference image:
 
-![Inference Grad-CAM output](artifacts/inference/convnext-base-production/Te-gl_1__glioma__highlighted.png)
+<table>
+<tr>
+<td><img src="artifacts\inference\convnext-base-production\Te-aug-me_1__meningioma__highlighted.png" alt="Inference Grad-CAM output" width="240"></td>
+<td><img src="artifacts\inference\convnext-base-production\Te-aug-me_2__meningioma__highlighted.png" alt="Inference Grad-CAM output" width="240"></td>
+<td><img src="artifacts\inference\convnext-base-production\Te-aug-me_3__meningioma__highlighted.png" alt="Inference Grad-CAM output" width="240"></td>
+<td><img src="artifacts\inference\convnext-base-production\Te-aug-me_4__meningioma__highlighted.png" alt="Inference Grad-CAM output" width="240"></td>
+<td><img src="artifacts\inference\convnext-base-production\Te-aug-me_5__meningioma__highlighted.png" alt="Inference Grad-CAM output" width="240"></td>
+</tr>
+<td><img src="artifacts\inference\convnext-base-production\Te-gl_1__glioma__highlighted.png" alt="Inference Grad-CAM output" width="240"></td>
+<td><img src="artifacts\inference\convnext-base-production\Te-gl_2__glioma__highlighted.png" alt="Inference Grad-CAM output" width="240"></td>
+<td><img src="artifacts\inference\convnext-base-production\Te-gl_4__glioma__highlighted.png" alt="Inference Grad-CAM output" width="240"></td>
+<td><img src="artifacts\inference\convnext-base-production\Te-gl_6__glioma__highlighted.png" alt="Inference Grad-CAM output" width="240"></td>
+<td><img src="artifacts\inference\convnext-base-production\Te-gl_8__glioma__highlighted.png" alt="Inference Grad-CAM output" width="240"></td>
+<tr>
+</table>
 
 Prediction summaries:
 
