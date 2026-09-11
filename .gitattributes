@@ -1,3 +1,4 @@
 artifacts/checkpoints/convnext-base/convnext_base_best.pt filter=lfs diff=lfs merge=lfs -text
 artifacts/checkpoints/convnext-tiny-full/convnext_tiny_best.pt filter=lfs diff=lfs merge=lfs -text
 artifacts/mlflow-repair/model/trial_26.pt filter=lfs diff=lfs merge=lfs -text
+artifacts/inference/**/*.png filter=lfs diff=lfs merge=lfs -text
