@@ -1,0 +1,56 @@
+{
+  "architecture": "convnext_base",
+  "checkpoint": "artifacts\\tuning\\trial_26.pt",
+  "dataset_version_hash": "974e32f0fa628a307ba1bc2ec7f48d137b8190da0582678d7c5c75c8120bf383",
+  "preprocessing_config_hash": "7d91c97fccc3d9b58cbb353d373584651e6a2f21c5d67262f0064c78316611d8",
+  "device": "cuda",
+  "metrics": {
+    "accuracy": 0.964375,
+    "macro_f1": 0.9638741750993044,
+    "weighted_f1": 0.9638741750993044,
+    "per_class_precision": [
+      0.9832402234636871,
+      0.9289099526066351,
+      0.9592326139088729,
+      0.9900744416873449
+    ],
+    "per_class_recall": [
+      0.88,
+      0.98,
+      1.0,
+      0.9975
+    ],
+    "per_class_f1": [
+      0.9287598944591029,
+      0.9537712895377128,
+      0.9791921664626683,
+      0.9937733499377336
+    ]
+  },
+  "confusion_matrix": [
+    [
+      352,
+      30,
+      17,
+      1
+    ],
+    [
+      5,
+      392,
+      0,
+      3
+    ],
+    [
+      0,
+      0,
+      400,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      399
+    ]
+  ]
+}

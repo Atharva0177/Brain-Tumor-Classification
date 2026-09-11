@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-09-10T16:39:12.145699+00:00",
+  "model_name": "brainseg-convnext-base",
+  "model_version": "1",
+  "architecture": "convnext_base",
+  "checkpoint": "artifacts\\tuning\\trial_26.pt",
+  "checkpoint_sha256": "614c3d98eb6147257e157d149a4b8550438226126d1522e371a83ce2be0a0ec2",
+  "dataset_version_hash": "974e32f0fa628a307ba1bc2ec7f48d137b8190da0582678d7c5c75c8120bf383",
+  "preprocessing_config_hash": "7d91c97fccc3d9b58cbb353d373584651e6a2f21c5d67262f0064c78316611d8",
+  "gradcam": {
+    "architecture": "convnext_base",
+    "controls": [
+      {
+        "image_id": "Testing/glioma/Te-gl_1.jpg",
+        "actual": "glioma",
+        "predicted": "glioma",
+        "central_activation_score": 1.0,
+        "passed": true
+      },
+      {
+        "image_id": "Testing/glioma/Te-gl_10.jpg",
+        "actual": "glioma",
+        "predicted": "glioma",
+        "central_activation_score": 1.0,
+        "passed": true
+      },
+      {
+        "image_id": "Testing/meningioma/Te-aug-me_1.jpg",
+        "actual": "meningioma",
+        "predicted": "meningioma",
+        "central_activation_score": 1.0,
+        "passed": true
+      },
+      {
+        "image_id": "Testing/meningioma/Te-aug-me_10.jpg",
+        "actual": "meningioma",
+        "predicted": "meningioma",
+        "central_activation_score": 1.0,
+        "passed": true
+      },
+      {
+        "image_id": "Testing/notumor/Te-no_1.jpg",
+        "actual": "notumor",
+        "predicted": "notumor",
+        "central_activation_score": 1.0,
+        "passed": true
+      },
+      {
+        "image_id": "Testing/notumor/Te-no_10.jpg",
+        "actual": "notumor",
+        "predicted": "notumor",
+        "central_activation_score": 0.9695292115211487,
+        "passed": true
+      },
+      {
+        "image_id": "Testing/pituitary/Te-pi_1.jpg",
+        "actual": "pituitary",
+        "predicted": "pituitary",
+        "central_activation_score": 1.0,
+        "passed": true
+      },
+      {
+        "image_id": "Testing/pituitary/Te-pi_10.jpg",
+        "actual": "pituitary",
+        "predicted": "pituitary",
+        "central_activation_score": 1.0,
+        "passed": true
+      }
+    ],
+    "threshold": 0.5,
+    "passed": true
+  },
+  "reviewer_status": "PENDING",
+  "review_notes": "Production model passed deterministic Grad-CAM controls; reviewer sign-off pending.",
+  "immutable": true
+}

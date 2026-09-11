@@ -1,0 +1,56 @@
+{
+  "architecture": "convnext_tiny",
+  "checkpoint": "artifacts\\checkpoints\\phase3-smoke\\convnext_tiny_best.pt",
+  "dataset_version_hash": "974e32f0fa628a307ba1bc2ec7f48d137b8190da0582678d7c5c75c8120bf383",
+  "preprocessing_config_hash": "7d91c97fccc3d9b58cbb353d373584651e6a2f21c5d67262f0064c78316611d8",
+  "device": "cuda",
+  "metrics": {
+    "accuracy": 0.470625,
+    "macro_f1": 0.4627352860662963,
+    "weighted_f1": 0.4627352860662963,
+    "per_class_precision": [
+      0.37300435413642963,
+      0.41124260355029585,
+      0.6920980926430518,
+      0.5
+    ],
+    "per_class_recall": [
+      0.6425,
+      0.3475,
+      0.635,
+      0.2575
+    ],
+    "per_class_f1": [
+      0.47199265381083566,
+      0.37669376693766937,
+      0.6623207301173403,
+      0.33993399339933994
+    ]
+  },
+  "confusion_matrix": [
+    [
+      257,
+      62,
+      36,
+      45
+    ],
+    [
+      142,
+      139,
+      76,
+      43
+    ],
+    [
+      65,
+      66,
+      254,
+      15
+    ],
+    [
+      225,
+      71,
+      1,
+      103
+    ]
+  ]
+}

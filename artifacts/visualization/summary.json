@@ -1,0 +1,15 @@
+{
+  "dataset_root": "data\\raw\\974e32f0fa628a307ba1bc2ec7f48d137b8190da0582678d7c5c75c8120bf383",
+  "output_root": "artifacts\\visualization",
+  "image_count": 7200,
+  "artifacts": [
+    "artifacts\\visualization\\class_distribution.png",
+    "artifacts\\visualization\\image_dimensions.png",
+    "artifacts\\visualization\\file_size_distribution.png",
+    "artifacts\\visualization\\format_distribution.png",
+    "artifacts\\visualization\\samples_training.png",
+    "artifacts\\visualization\\samples_testing.png",
+    "artifacts\\visualization\\data_flow.png"
+  ],
+  "report": "artifacts\\visualization\\README.md"
+}

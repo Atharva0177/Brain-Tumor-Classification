@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "api_health": true,
+    "mlflow": true,
+    "processed_manifest": true,
+    "dataset_hash": true,
+    "record_count": true,
+    "testing_isolated": true,
+    "train_val_isolated": true,
+    "evaluation_summary": true,
+    "explainability_review": true,
+    "production_checkpoint": true,
+    "tracked_env_ignored": true,
+    "no_pytest_launcher": true
+  },
+  "passed": true,
+  "known_limitations": [
+    "The dataset retains accepted near-duplicate train/test findings.",
+    "The local .env must never be committed or shared."
+  ]
+}

@@ -1,0 +1,1102 @@
+[
+  {
+    "image_id": "Testing/glioma/Te-gl_1.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.0899270549416542,
+      0.4074176549911499,
+      0.31680136919021606,
+      0.18585394322872162
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_101.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.19073300063610077,
+      0.36060330271720886,
+      0.17991243302822113,
+      0.2687512934207916
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_103.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      3.336630106787197e-05,
+      0.16195963323116302,
+      0.835851788520813,
+      0.0021551719401031733
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_104.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.21662425994873047,
+      0.34739401936531067,
+      0.14712399244308472,
+      0.28885769844055176
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_106.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      0.03208816051483154,
+      0.4147978127002716,
+      0.4343899190425873,
+      0.11872409284114838
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_107.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.33868080377578735,
+      0.2217712253332138,
+      0.09157194942235947,
+      0.3479759693145752
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_110.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.21640031039714813,
+      0.31671544909477234,
+      0.1564675271511078,
+      0.31041669845581055
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_112.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.3203742802143097,
+      0.24738934636116028,
+      0.10238905996084213,
+      0.3298472464084625
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_113.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.31762173771858215,
+      0.24939735233783722,
+      0.11360298842191696,
+      0.31937795877456665
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_115.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      0.00025866267969831824,
+      0.186003640294075,
+      0.8082639575004578,
+      0.00547371432185173
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_119.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.2308589369058609,
+      0.34237825870513916,
+      0.14159879088401794,
+      0.2851640284061432
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_122.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.3253965377807617,
+      0.23783060908317566,
+      0.0984559878706932,
+      0.33831682801246643
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_125.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.2962346076965332,
+      0.2865855395793915,
+      0.11383980512619019,
+      0.3033400774002075
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_126.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      0.001215743599459529,
+      0.27401605248451233,
+      0.708031177520752,
+      0.01673702523112297
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_129.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      3.7865025660721585e-05,
+      0.21332994103431702,
+      0.7849715352058411,
+      0.0016606528079137206
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_130.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.23769238591194153,
+      0.3205127716064453,
+      0.12165246158838272,
+      0.32014238834381104
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_133.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.2392929047346115,
+      0.3572896718978882,
+      0.13713601231575012,
+      0.266281396150589
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_134.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.26220571994781494,
+      0.29701411724090576,
+      0.15443019568920135,
+      0.28634998202323914
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_138.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.22409743070602417,
+      0.3117838203907013,
+      0.16893187165260315,
+      0.2951869070529938
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_14.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.29093044996261597,
+      0.30613088607788086,
+      0.10637447237968445,
+      0.29656416177749634
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_140.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.200468972325325,
+      0.3389688730239868,
+      0.1586509793996811,
+      0.3019111454486847
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_142.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.20141346752643585,
+      0.3292774558067322,
+      0.17960922420024872,
+      0.2896997928619385
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_143.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      3.403739299301378e-07,
+      0.028118619695305824,
+      0.9718284010887146,
+      5.260369653115049e-05
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_144.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      0.02470846101641655,
+      0.3880555331707001,
+      0.4921184480190277,
+      0.09511759132146835
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_145.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.31232964992523193,
+      0.25180816650390625,
+      0.10111726075410843,
+      0.33474496006965637
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_148.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.32054564356803894,
+      0.24855780601501465,
+      0.10564271360635757,
+      0.32525381445884705
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_149.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.25274723768234253,
+      0.341401070356369,
+      0.11835714429616928,
+      0.28749457001686096
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_15.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      0.013698414899408817,
+      0.45846349000930786,
+      0.4609834551811218,
+      0.06685465574264526
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_151.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      1.0237930325729394e-07,
+      0.04150400683283806,
+      0.9584661722183228,
+      2.9714668926317245e-05
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_157.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.27383118867874146,
+      0.30777180194854736,
+      0.10468415915966034,
+      0.3137129247188568
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_159.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      0.0007433852297253907,
+      0.2307293862104416,
+      0.7564522624015808,
+      0.01207494456321001
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_16.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.26744967699050903,
+      0.3013916015625,
+      0.1261667162179947,
+      0.3049919903278351
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_160.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.3051408529281616,
+      0.26435741782188416,
+      0.12465871125459671,
+      0.3058430552482605
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_162.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.26848137378692627,
+      0.27138611674308777,
+      0.10847954452037811,
+      0.35165300965309143
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_165.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.1822817325592041,
+      0.38660910725593567,
+      0.18066899478435516,
+      0.25044015049934387
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_166.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.2958733141422272,
+      0.21896487474441528,
+      0.14474160969257355,
+      0.3404202163219452
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_167.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.31927230954170227,
+      0.23933778703212738,
+      0.10897171497344971,
+      0.33241814374923706
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_169.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.3106674253940582,
+      0.2489745169878006,
+      0.09912879019975662,
+      0.34122931957244873
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_170.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      0.0002135297399945557,
+      0.30417725443840027,
+      0.6875561475753784,
+      0.008053069934248924
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_171.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      1.3532661796489265e-05,
+      0.1371159702539444,
+      0.8619757890701294,
+      0.0008947108290158212
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_172.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.2624557614326477,
+      0.30602166056632996,
+      0.10841342806816101,
+      0.3231092095375061
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_175.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.19310082495212555,
+      0.34572044014930725,
+      0.1781304031610489,
+      0.2830483317375183
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_178.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      0.0002135297399945557,
+      0.30417725443840027,
+      0.6875561475753784,
+      0.008053069934248924
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_184.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.26432615518569946,
+      0.32430949807167053,
+      0.11131463944911957,
+      0.300049751996994
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_187.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      7.630681011505658e-07,
+      0.09816762059926987,
+      0.9015225768089294,
+      0.00030906739993952215
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_189.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      0.0033908553887158632,
+      0.31857335567474365,
+      0.6506429314613342,
+      0.02739282324910164
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_194.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.3054136037826538,
+      0.2534390091896057,
+      0.11164066940546036,
+      0.32950666546821594
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_195.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.27843791246414185,
+      0.26802894473075867,
+      0.1185053214430809,
+      0.335027813911438
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_196.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.10287588089704514,
+      0.4049518406391144,
+      0.2765471637248993,
+      0.2156250774860382
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_20.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.2928958535194397,
+      0.27416518330574036,
+      0.1323319673538208,
+      0.30060696601867676
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_204.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.3045799434185028,
+      0.2437146157026291,
+      0.12942443788051605,
+      0.32228097319602966
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_208.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.28630706667900085,
+      0.2854216396808624,
+      0.12423288822174072,
+      0.304038405418396
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_211.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      0.0001301382581004873,
+      0.2642422616481781,
+      0.7305799126625061,
+      0.005047735758125782
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_212.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.19723717868328094,
+      0.3731924593448639,
+      0.1595717817544937,
+      0.26999858021736145
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_215.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.31806400418281555,
+      0.25337648391723633,
+      0.10642963647842407,
+      0.32212990522384644
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_218.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      0.018523994833230972,
+      0.4031026065349579,
+      0.4943537712097168,
+      0.08401967585086823
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_224.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.2650972306728363,
+      0.2865246534347534,
+      0.1443883329629898,
+      0.30398979783058167
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_228.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      1.3532661796489265e-05,
+      0.1371159702539444,
+      0.8619757890701294,
+      0.0008947108290158212
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_229.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.021286971867084503,
+      0.4425968825817108,
+      0.41123080253601074,
+      0.12488535046577454
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_232.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.21817675232887268,
+      0.3480079770088196,
+      0.1534366011619568,
+      0.28037863969802856
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_236.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.18080800771713257,
+      0.38385096192359924,
+      0.18178874254226685,
+      0.25355222821235657
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_238.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.200468972325325,
+      0.3389688730239868,
+      0.1586509793996811,
+      0.3019111454486847
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_239.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.15873593091964722,
+      0.34923413395881653,
+      0.22807836532592773,
+      0.26395153999328613
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_24.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.20231465995311737,
+      0.3810141086578369,
+      0.16643691062927246,
+      0.25023433566093445
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_246.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.2461499124765396,
+      0.3115213215351105,
+      0.1432262659072876,
+      0.2991024851799011
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_247.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.23991228640079498,
+      0.3079627454280853,
+      0.1313955932855606,
+      0.3207293748855591
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_250.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.22572565078735352,
+      0.3354159891605377,
+      0.14684827625751495,
+      0.2920101284980774
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_252.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.32904475927352905,
+      0.2335902601480484,
+      0.09561318904161453,
+      0.3417518436908722
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_259.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.3045799434185028,
+      0.2437146157026291,
+      0.12942443788051605,
+      0.32228097319602966
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_263.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.2264901101589203,
+      0.3125561773777008,
+      0.15148459374904633,
+      0.30946916341781616
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_264.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      0.023252181708812714,
+      0.32973456382751465,
+      0.5631111264228821,
+      0.08390209823846817
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_269.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.11926514655351639,
+      0.4340786337852478,
+      0.22421929240226746,
+      0.2224368453025818
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_27.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.13323429226875305,
+      0.3482414186000824,
+      0.2626401484012604,
+      0.25588417053222656
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_270.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.17055146396160126,
+      0.3690084218978882,
+      0.1974940299987793,
+      0.26294609904289246
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_271.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.3291643261909485,
+      0.22757750749588013,
+      0.08483700454235077,
+      0.3584211766719818
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_272.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.19723717868328094,
+      0.3731924593448639,
+      0.1595717817544937,
+      0.26999858021736145
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_275.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.11483462899923325,
+      0.40813180804252625,
+      0.250889390707016,
+      0.22614416480064392
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_277.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      1.187260295409942e-05,
+      0.10604697465896606,
+      0.892809271812439,
+      0.0011318976758047938
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_278.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.2958733141422272,
+      0.21896487474441528,
+      0.14474160969257355,
+      0.3404202163219452
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_285.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.28230348229408264,
+      0.2693968415260315,
+      0.12953981757164001,
+      0.31875988841056824
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_287.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.26911401748657227,
+      0.31069889664649963,
+      0.11863002926111221,
+      0.3015570640563965
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_29.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.17055146396160126,
+      0.3690084218978882,
+      0.1974940299987793,
+      0.26294609904289246
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_295.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.2918696999549866,
+      0.27265238761901855,
+      0.11844248324632645,
+      0.317035436630249
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_30.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.11285947263240814,
+      0.4122565686702728,
+      0.2642480432987213,
+      0.21063591539859772
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_300.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.28525587916374207,
+      0.291526198387146,
+      0.11237990111112595,
+      0.31083807349205017
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_303.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      3.7865025660721585e-05,
+      0.21332994103431702,
+      0.7849715352058411,
+      0.0016606528079137206
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_304.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.27656275033950806,
+      0.3017527163028717,
+      0.10214319825172424,
+      0.3195413053035736
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_305.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.05015980452299118,
+      0.4738314747810364,
+      0.32441455125808716,
+      0.15159422159194946
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_306.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.15454351902008057,
+      0.3512677252292633,
+      0.22358839213848114,
+      0.2706003189086914
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_308.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.21229586005210876,
+      0.3356119394302368,
+      0.1481969654560089,
+      0.3038952648639679
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_310.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.11497347056865692,
+      0.39821481704711914,
+      0.26490649580955505,
+      0.22190524637699127
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_313.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.1617390215396881,
+      0.3511836528778076,
+      0.23906327784061432,
+      0.24801406264305115
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_315.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.2597186863422394,
+      0.30139121413230896,
+      0.1208571344614029,
+      0.31803297996520996
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_318.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      4.9588347792450804e-06,
+      0.16340908408164978,
+      0.8359858989715576,
+      0.0005999927525408566
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_319.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.2305416613817215,
+      0.33544978499412537,
+      0.15166208148002625,
+      0.2823465168476105
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_32.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.1291477084159851,
+      0.37806031107902527,
+      0.251382976770401,
+      0.24140894412994385
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_327.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.2579881548881531,
+      0.2900297939777374,
+      0.16525371372699738,
+      0.2867283821105957
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_335.jpg",
+    "actual": "glioma",
+    "predicted": "notumor",
+    "probabilities": [
+      0.0010725921019911766,
+      0.2284555435180664,
+      0.7575944662094116,
+      0.01287744753062725
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_336.jpg",
+    "actual": "glioma",
+    "predicted": "pituitary",
+    "probabilities": [
+      0.31172290444374084,
+      0.25752902030944824,
+      0.11712883412837982,
+      0.3136192262172699
+    ]
+  },
+  {
+    "image_id": "Testing/glioma/Te-gl_338.jpg",
+    "actual": "glioma",
+    "predicted": "meningioma",
+    "probabilities": [
+      0.19723717868328094,
+      0.3731924593448639,
+      0.1595717817544937,
+      0.26999858021736145
+    ]
+  }
+]

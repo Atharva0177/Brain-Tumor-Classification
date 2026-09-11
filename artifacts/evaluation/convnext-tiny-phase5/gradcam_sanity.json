@@ -1,0 +1,63 @@
+{
+  "architecture": "convnext_tiny",
+  "controls": [
+    {
+      "image_id": "Testing/glioma/Te-gl_1.jpg",
+      "actual": "glioma",
+      "predicted": "meningioma",
+      "central_activation_score": 1.0,
+      "passed": true
+    },
+    {
+      "image_id": "Testing/glioma/Te-gl_10.jpg",
+      "actual": "glioma",
+      "predicted": "glioma",
+      "central_activation_score": 0.767644464969635,
+      "passed": true
+    },
+    {
+      "image_id": "Testing/meningioma/Te-aug-me_1.jpg",
+      "actual": "meningioma",
+      "predicted": "pituitary",
+      "central_activation_score": 0.7950133681297302,
+      "passed": true
+    },
+    {
+      "image_id": "Testing/meningioma/Te-aug-me_10.jpg",
+      "actual": "meningioma",
+      "predicted": "glioma",
+      "central_activation_score": 0.8767834305763245,
+      "passed": true
+    },
+    {
+      "image_id": "Testing/notumor/Te-no_1.jpg",
+      "actual": "notumor",
+      "predicted": "notumor",
+      "central_activation_score": 1.0,
+      "passed": true
+    },
+    {
+      "image_id": "Testing/notumor/Te-no_10.jpg",
+      "actual": "notumor",
+      "predicted": "notumor",
+      "central_activation_score": 1.0,
+      "passed": true
+    },
+    {
+      "image_id": "Testing/pituitary/Te-pi_1.jpg",
+      "actual": "pituitary",
+      "predicted": "meningioma",
+      "central_activation_score": 0.933411180973053,
+      "passed": true
+    },
+    {
+      "image_id": "Testing/pituitary/Te-pi_10.jpg",
+      "actual": "pituitary",
+      "predicted": "meningioma",
+      "central_activation_score": 0.7968750596046448,
+      "passed": true
+    }
+  ],
+  "threshold": 0.5,
+  "passed": true
+}

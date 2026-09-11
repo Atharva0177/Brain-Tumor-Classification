@@ -1,0 +1,82 @@
+name: CD
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: "Run the environment-specific deployment hook"
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  release:
+    name: Build and publish release images
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - id: meta
+        name: Compute image tag
+        shell: bash
+        run: echo "tag=${GITHUB_REF_NAME:-sha-${GITHUB_SHA::12}}" >> "$GITHUB_OUTPUT"
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: docker/setup-buildx-action@v3
+      - name: Build and push API image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: infra/api/Dockerfile
+          push: true
+          tags: |
+            ghcr.io/${{ github.repository_owner }}/brain-tumor-classification-api:${{ steps.meta.outputs.tag }}
+            ghcr.io/${{ github.repository_owner }}/brain-tumor-classification-api:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+      - name: Build and push MLflow image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: infra/mlflow/Dockerfile
+          push: true
+          tags: |
+            ghcr.io/${{ github.repository_owner }}/brain-tumor-classification-mlflow:${{ steps.meta.outputs.tag }}
+            ghcr.io/${{ github.repository_owner }}/brain-tumor-classification-mlflow:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release-docs
+          path: |
+            docs/
+            README.md
+            TASKS.md
+            DECISION.md
+
+  deploy:
+    name: Deploy release
+    needs: release
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.deploy == true }}
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - name: Require deployment hook
+        env:
+          DEPLOY_COMMAND: ${{ secrets.DEPLOY_COMMAND }}
+        run: test -n "$DEPLOY_COMMAND"
+      - name: Run deployment command
+        env:
+          DEPLOY_COMMAND: ${{ secrets.DEPLOY_COMMAND }}
+        run: bash -lc "$DEPLOY_COMMAND"
